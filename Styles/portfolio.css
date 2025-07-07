@@ -1,4 +1,3 @@
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -19,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 200px;
+    margin: 0px 200px;
 }
 
 nav img{
@@ -180,4 +179,31 @@ main {
     font-size: 16px;
     font-weight: normal;
     width: 100%;
+}
+
+.resume{
+    display: flex;
+    gap: 30px;
+}
+
+.resume-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.resume-subtitle{
+    font-size: 20;
+    font-weight: 600;
+    margin: 0;
+}
+
+.resume-description{
+    font-size: 16;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.button-resume{
+    text-align: center;
 }
