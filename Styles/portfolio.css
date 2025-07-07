@@ -207,3 +207,46 @@ main {
 .button-resume{
     text-align: center;
 }
+
+footer{
+    background-color: #FFF8F3;
+}
+
+footer h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.footer{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 100px;
+    padding: 100px 0;
+}
+.input{
+    display: block;
+    margin: 10px 0;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 65px;
+    padding: 0px 30px;
+}
+
+textarea{
+    display: block;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 450px;
+    height: 65px;
+    padding: 20px 30px;
+}
