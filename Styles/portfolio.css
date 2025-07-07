@@ -2,16 +2,65 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
-nav{
-    display: flex;
+.dark-2{
+    color: #474747;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px;
+}
+
+nav img{
+    height: 50px;
+}
 nav ul{
     display: flex;
+    gap: 80px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button-01{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    margin-left: -50px;
+}
+
+.hero-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px 0px 200px;
+}
+
+.hero-banner img{
+    width: 580px;
+}
+
+.header{
+    background-image: url('../Media/Images/developer.png'), url('../Media/Images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
